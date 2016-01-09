@@ -5,6 +5,7 @@ import scala.collection.mutable.ArraySeq
 import scala.BigDecimal
 
 /** see also comments in of end a file */
+/** for bibliography, see my first project: NLA1 */
 object mathFun  {
   def mySqrt(x: BigDecimal): BigDecimal = BigDecimal(math.sqrt(x.toDouble)) 
   def mySqrt(x: Float):      Float      = math.sqrt(x.toDouble).toFloat
